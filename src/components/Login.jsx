@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export default function Login() {
   const handleClick = () => {
    const clientId = "2116b77085514e85a163e922e18518bc";
-   const redirectUrl = "https://spotify-clone-api.netlify.app/"
+   const redirectUrl = ""
    const apiUrl = "https://accounts.spotify.com/authorize";
    const scope = [
     "user-read-email",
@@ -26,7 +26,7 @@ export default function Login() {
         <img
          src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Black.png"
           alt="Spotify"/>
-        <button onClick={handleClick}>Connect Spotify</button>
+        <button onClick={handleClick}> Connect Spotify</button>
     </Container>
   )
 }
